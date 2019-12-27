@@ -991,7 +991,7 @@ boolT addNewFunc(char *name, hlType typ) {
     allocFunc += DELTA_FUNC;
     pFunc = (PH_FUNC_STRUCT *)realloc(pFunc, allocFunc * sizeof(PH_FUNC_STRUCT));
     if (pFunc == NULL) {
-      fprintf(stderr, "Could not allocate %ud bytes for function array\n",
+      fprintf(stderr, "Could not allocate %I64u bytes for function array\n",
               allocFunc * sizeof(PH_FUNC_STRUCT));
       exit(1);
     }
@@ -1022,7 +1022,7 @@ void addNewArg(char *name, hlType typ) {
     allocArg += DELTA_FUNC;
     pArg = (PH_ARG_STRUCT *)realloc(pArg, allocArg * sizeof(PH_ARG_STRUCT));
     if (pArg == NULL) {
-      fprintf(stderr, "Could not allocate %ud bytes for arguement array\n",
+      fprintf(stderr, "Could not allocate %I64u bytes for arguement array\n",
               allocArg * sizeof(PH_ARG_STRUCT));
       exit(1);
     }
@@ -1176,7 +1176,7 @@ int main(int argc, char *argv[]) {
   /* Allocate the arrys for function and proto names and types */
   pFunc = (PH_FUNC_STRUCT *)malloc(DELTA_FUNC * sizeof(PH_FUNC_STRUCT));
   if (pFunc == 0) {
-    fprintf(stderr, "Could not malloc %ud bytes for function name array\n",
+    fprintf(stderr, "Could not malloc %I64u bytes for function name array\n",
             DELTA_FUNC * sizeof(PH_FUNC_STRUCT));
     exit(1);
   }
@@ -1186,7 +1186,7 @@ int main(int argc, char *argv[]) {
 
   pArg = (PH_ARG_STRUCT *)malloc(DELTA_FUNC * sizeof(PH_ARG_STRUCT));
   if (pArg == 0) {
-    fprintf(stderr, "Could not malloc %ud bytes for arguement array\n",
+    fprintf(stderr, "Could not malloc %I64u bytes for arguement array\n",
             DELTA_FUNC * sizeof(PH_ARG_STRUCT));
     exit(1);
   }

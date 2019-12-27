@@ -1,0 +1,2 @@
+C:/msys64/mingw64/bin/ar.exe qc libdcc_hash.a  CMakeFiles/dcc_hash.dir/dcc_hash_autogen/mocs_compilation.cpp.obj CMakeFiles/dcc_hash.dir/perfhlib.cpp.obj
+C:/msys64/mingw64/bin/ranlib.exe libdcc_hash.a

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/src/reverse_engineering/jopadan/dcc/tools/parsehdr/parsehdr.cpp
+parsehdr.h
+D:/src/reverse_engineering/jopadan/dcc/tools/parsehdr/parsehdr.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+algorithm
+-
+
+D:/src/reverse_engineering/jopadan/dcc/tools/parsehdr/parsehdr.h
+Enums.h
+D:/src/reverse_engineering/jopadan/dcc/tools/parsehdr/Enums.h
+
+include/Enums.h
+

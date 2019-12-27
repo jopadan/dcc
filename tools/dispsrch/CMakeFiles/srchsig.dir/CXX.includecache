@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/src/reverse_engineering/jopadan/dcc/tools/dispsrch/srchsig.cpp
+perfhlib.h
+D:/src/reverse_engineering/jopadan/dcc/tools/dispsrch/perfhlib.h
+memory.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+D:/src/reverse_engineering/jopadan/dcc/tools/dispsrch/srchsig_autogen/mocs_compilation.cpp
+
+common/perfhlib.h
+stdint.h
+-
+

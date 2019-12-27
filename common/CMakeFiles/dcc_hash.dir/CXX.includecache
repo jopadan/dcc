@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/src/reverse_engineering/jopadan/dcc/common/PatternCollector.h
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+vector
+-
+
+D:/src/reverse_engineering/jopadan/dcc/common/dcc_hash_autogen/mocs_compilation.cpp
+
+D:/src/reverse_engineering/jopadan/dcc/common/perfhlib.cpp
+perfhlib.h
+D:/src/reverse_engineering/jopadan/dcc/common/perfhlib.h
+PatternCollector.h
+D:/src/reverse_engineering/jopadan/dcc/common/PatternCollector.h
+msvc_fixes.h
+D:/src/reverse_engineering/jopadan/dcc/common/msvc_fixes.h
+stdio.h
+-
+cassert
+-
+stdlib.h
+-
+string.h
+-
+
+D:/src/reverse_engineering/jopadan/dcc/common/perfhlib.h
+stdint.h
+-
+
+include/msvc_fixes.h
+iso646.h
+-
+

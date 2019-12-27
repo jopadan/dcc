@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/src/reverse_engineering/jopadan/dcc/tools/dispsrch/dispsig.cpp
+perfhlib.h
+D:/src/reverse_engineering/jopadan/dcc/tools/dispsrch/perfhlib.h
+QtCore/QString
+-
+memory.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+D:/src/reverse_engineering/jopadan/dcc/tools/dispsrch/dispsig_autogen/mocs_compilation.cpp
+
+common/perfhlib.h
+stdint.h
+-
+
